@@ -1,0 +1,85 @@
+@color-heading: #242946;
+@color-body: #212529;
+@color-gray: #f2f2f2;
+@color-orange: #e9973e;
+@color-border: #e5e5e5;
+@desktop: 1200px;
+@mobile: 1199px;
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: @color-body;
+
+    background-color: white;
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    border: 1px solid @color-border;
+    line-height: 2em;
+    padding-left: 0.5em;
+    font-family: 'Roboto Mono';
+    &:focus {
+        outline: 0;
+        border-color: @color-orange !important;
+    }
+}
+
+.card {
+    background-color: white;
+    border: 1px solid rgba(229,229,229, 0.5);
+    box-shadow: 10px 10px 14px rgba(0,0,0,0.12);
+    border-radius: 8px;
+    width: 100%;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+h1 {
+    font-size: 54px;
+    line-height: 74px;
+    font-weight: 900;
+    color: @color-heading;
+    @media (max-width: @mobile) {
+        font-size: 24px;
+        line-height: 33px;
+    }
+}
+h2 {
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 900;
+    color: @color-heading;
+}
+h3 {
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 26px;
+    color: @color-heading;
+    margin-bottom: 0.5em;
+}
+.name-val {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 36px;
+    .val {
+        flex: 0 0 10em;
+        @media (max-width: @mobile) {
+            flex: 0 0 6em;
+        }
+    }
+}     
