@@ -1,11 +1,12 @@
 # SaaS Valuation Calculator
 
-Demo - https://valuation-calculator.web.app
+[Live Demo](https://valuation-calculator.web.app)
 
-This is a tool to help value startups that generate revenue, based on the following methodologies:
+This is a tool to help value startups that generate recurring revenue, based on the following methodologies:
 
-https://www.omnicalculator.com/finance/saas-ltv
-https://davidcummings.org/2020/01/18/premium-saas-metrics-required-for-premium-saas-valuations/
+[Long Term Value Calculator](https://www.omnicalculator.com/finance/saas-ltv)
+
+[Premium SaaS Valuations](https://davidcummings.org/2020/01/18/premium-saas-metrics-required-for-premium-saas-valuations/)
 
 ## Project setup
 ```
